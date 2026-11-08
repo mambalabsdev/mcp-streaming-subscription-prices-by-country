@@ -1,0 +1,52 @@
+{
+  "name": "@mambalabsdev/mcp-streaming-subscription-prices-by-country",
+  "version": "1.0.0",
+  "description": "MCP server for Streaming Subscription Prices by Country: Spotify and Netflix plan prices per country.",
+  "type": "module",
+  "bin": {
+    "mcp-streaming-subscription-prices-by-country": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "spotify",
+    "netflix",
+    "streaming",
+    "pricing",
+    "country",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/streaming-subscription-prices-by-country",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-streaming-subscription-prices-by-country"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-streaming-subscription-prices-by-country"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mcp-streaming-subscription-prices-by-country",
+  "displayName": "Streaming Subscription Prices by Country",
+  "version": "1.0.0",
+  "description": "MCP server for Streaming Subscription Prices by Country: Spotify and Netflix plan prices per country.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-streaming-subscription-prices-by-country",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "spotify",
+    "netflix",
+    "streaming",
+    "pricing",
+    "country",
+    "apify",
+    "mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "spotify",
+    "netflix",
+    "streaming",
+    "pricing",
+    "country",
+    "apify",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json"
+}

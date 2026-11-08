@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-streaming-subscription-prices-by-country": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-streaming-subscription-prices-by-country"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
