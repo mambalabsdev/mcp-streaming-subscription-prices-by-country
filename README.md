@@ -91,9 +91,10 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 |---|---|---|---|---|
 | `plan-row`, one Spotify plan in one country | $0.003 | $0.00285 | $0.0027 | $0.00255 |
 | `netflix-plan-row`, one Netflix plan in one country | $0.005 | $0.00475 | $0.0045 | $0.00425 |
-| `apify-actor-start`, per run start | $0.004 | $0.004 | $0.004 | $0.004 |
+| `country`, one country asked for, served or not | $0.003 | $0.00285 | $0.0027 | $0.00255 |
+| `apify-actor-start`, per run start | $0.009 | $0.009 | $0.009 | $0.009 |
 
-Country summaries and refused input are free. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
+Country summaries and refused input are free rows. Each country asked for is charged once. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
 
 ## Full actor documentation
 
