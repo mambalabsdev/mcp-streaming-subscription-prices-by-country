@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-streaming-subscription-prices-by-country",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Streaming Subscription Prices by Country: Spotify and Netflix plan prices per country.",
   "type": "module",
   "bin": {
